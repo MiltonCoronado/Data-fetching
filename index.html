@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Dogs</title>
+</head>
+<body>
+  <h1>Dogs App</h1>
+
+  <span id="error"></span>
+
+  <section id="randomDogs">
+    <h2>Random Dogs</h2>
+
+    <article>
+      <img id="img1" width="150" alt="Foto gatito aleatorio">
+      <button id="buttonOne">Guardar en favoritos</button>
+    </article>
+
+    <article>
+      <img id="img2" width="150" alt="Foto gatito aleatorio">
+      <button id="buttonTwo">Guardar en favoritos</button>
+    </article>
+
+    <article>
+      <img id="img3" width="150" alt="Foto gatito aleatorio">
+      <button id="buttonThree">Guardar en favoritos</button>
+    </article>
+    
+
+    <button onclick="loadRandomDogs()">Recargar</button>
+  </section>
+
+  <section id="uploadingDog">
+    <h2>Upload your picture dog.</h2>
+
+    <form id="uploadingForm">
+        <input id="input" type="file" name="file">
+        <button type="button" onclick="uploadDogPicture()">Upload picture</button>
+    </form>
+  </section>
+
+  
+  <section id="favoritesDogs">
+    <!-- <h2>Favorites Dogs</h2>
+
+    <article>
+      <img id="img4" width="200" alt="Foto gatito aleatorio">
+      <button>Sacar al michi de favoritos</button>
+    </article> -->
+  </section>
+
+  <script src="./main.js"></script>
+</body>
+</html>
